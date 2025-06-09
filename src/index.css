@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Navigation */
+.logo{
+      background: linear-gradient(90deg,#0a0910,#ec81ec);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-inline: 20px;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+a.active hr{
+    display: block;
+}
+.trend {
+    width: 230px;
+    background-color: white;
+    margin-inline: 5px;
+    border:1px solid #eeee;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    justify-content: center;
+    box-shadow: 5px 5px 15px rgb(91, 83, 83);
+}
+.ic, .icon{
+    color: #f97e0b;
+}
+.features, img{
+    width: 95%;
+height: 200px;
+padding: 22px;
+border-radius: 10;
+
+}
+
+::-webkit-scrollbar{
+    display: none;
+    
+}
+
+
+@media (max-width:640px){
+    a.active{
+        background-color: #0a0910;
+        color:aliceblue;
+    }
+}
